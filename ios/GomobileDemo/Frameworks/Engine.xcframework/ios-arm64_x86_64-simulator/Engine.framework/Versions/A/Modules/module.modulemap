@@ -1,0 +1,8 @@
+framework module "Engine" {
+	header "ref.h"
+    header "Engine.objc.h"
+    header "Universe.objc.h"
+    header "Engine.h"
+
+    export *
+}
